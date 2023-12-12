@@ -111,3 +111,32 @@ rm -rf node_modules
 npm audit fix --force
 
 npm install --legacy-peer-deps
+
+....
+``
+npm outdated
+``
+# Update @vue/cli-service
+``
+npm install @vue/cli-service@latest `--force --save-dev
+``
+# Update eslint
+``
+npm install eslint@latest --save-dev
+``
+
+# Update eslint-plugin-vue
+``
+npm install eslint-plugin-vue@latest --save-dev
+``
+# Update vue
+``
+npm install vue@latest --save
+``
+
+ajout de : /* eslint-disable vue/multi-word-component-names */
+dans sidebar 
+E:\programation\webstrom\TwitterUI-clone\src\components\sidebar.vue 
+[trendarea.vue](src%2Fcomponents%2Ftrendarea.vue) et
+tweetarea.vue
+

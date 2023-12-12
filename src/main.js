@@ -1,8 +1,4 @@
-import Vue from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';  // Importer createApp depuis Vue 3
+import App from './App.vue';
 
-Vue.config.productionTip = false
-
-new Vue({
-    render: h => h(App),
-}).$mount('#app')
+createApp(App).mount('#app');  // Utiliser createApp et mount au lieu de new Vue et $mount
