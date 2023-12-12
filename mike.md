@@ -109,3 +109,5 @@ npm i eslint@6.8.0 -D
 rm -rf node_modules
 
 npm audit fix --force
+
+npm install --legacy-peer-deps
