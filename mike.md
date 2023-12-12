@@ -102,6 +102,10 @@ npm i eslint@latest -D
 
 However, note that this may not work for everyone, as some users have reported that only version 7.32.0 works for them.
 for me too only 7.32.0 works
-npm i eslint@7.32.0 -D
+npm i eslint@6.8.0 -D
 
 
+
+rm -rf node_modules
+
+npm audit fix --force
